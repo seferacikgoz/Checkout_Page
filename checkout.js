@@ -1,9 +1,10 @@
-/* const taxRate = 0.18;
+const taxRate = 0.18;
 const shippingPrice = 15;
-const shippingFreePrice = 300; */
+const shippingFreePrice = 300;
 
 window.addEventListener("load", () => {
-/*     //? set items to local storage
+    calculateCartPrice()
+     //? set items to local storage
     localStorage.setItem("taxRate", taxRate)
     localStorage.setItem("shippingPrice", shippingPrice)
     localStorage.setItem("shippingFreePrice", shippingFreePrice)
@@ -11,7 +12,7 @@ window.addEventListener("load", () => {
     //? set items to session storage
     sessionStorage.setItem("taxRate", taxRate)
     sessionStorage.setItem("shippingPrice", shippingPrice)
-    sessionStorage.setItem("shippingFreePrice", shippingFreePrice) */
+    sessionStorage.setItem("shippingFreePrice", shippingFreePrice) 
 })
 
 const productsDiv = document.querySelector(".products")
@@ -25,7 +26,7 @@ productsDiv.addEventListener("click", (event) =>{
             calculateCartPrice()
         }
         else{
-            if(confirm("Product will be removed ?")){
+            if(confirm(`${event.target.parentElement.parentElement.querySelector("h2").innerText} will be deleted`)){
                 //* remove
                 event.target.parentElement.parentElement.parentElement.remove(event.target);
                 calculateCartPrice()
