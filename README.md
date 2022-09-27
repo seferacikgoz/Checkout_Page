@@ -48,3 +48,4 @@ At the end of the this project, students will be able to;
 ## Resources
 
 - [Images](https://github.com/clarusway/clarusway-full-stack-tr-12-22/tree/main/javascript/projects/001_Checkout_Page/img)
+![Animation1412124](https://user-images.githubusercontent.com/102485608/192494572-16b4087c-aa8f-44d9-8a07-9820e54f4b62.gif)
