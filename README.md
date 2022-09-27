@@ -1,3 +1,5 @@
+![Animation1412124](https://user-images.githubusercontent.com/102485608/192494748-29cd0890-6c44-4140-bd3b-6f35d743e9ff.gif)
+
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
@@ -48,4 +50,3 @@ At the end of the this project, students will be able to;
 ## Resources
 
 - [Images](https://github.com/clarusway/clarusway-full-stack-tr-12-22/tree/main/javascript/projects/001_Checkout_Page/img)
-![Animation1412124](https://user-images.githubusercontent.com/102485608/192494572-16b4087c-aa8f-44d9-8a07-9820e54f4b62.gif)
